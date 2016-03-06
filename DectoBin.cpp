@@ -1,5 +1,8 @@
 #include <iostream>
-using namespace std
+using namespace std;
+
+int d = 0;
+
 int main(int d)
 {
     cout << "Please enter a integer: ";
