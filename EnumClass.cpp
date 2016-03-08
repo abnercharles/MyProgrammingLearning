@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 enum weekdayT { Sunday = 12, Monday, Tuesday, Wednesday = 0, Thursday, Friday, Saturday };
@@ -18,7 +19,7 @@ int main()
     prnt(Friday);
     prnt(Saturday);
 
-     weekdayT x = Monday; // How to access a enum type
+    weekdayT x = Monday; // How to access a enum type
     cout << x << endl;
 
     return 0;

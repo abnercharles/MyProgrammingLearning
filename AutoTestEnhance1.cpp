@@ -4,38 +4,38 @@
 
 using namespace std;
 
-int num1, num2, oprate, inputResult;
+int num1, num2, oprate, result, inputResult;
 
-int main(void)
+int main()
 {
     srand(time(NULL)); //init random seed
     // Get num1,num2
     num1 = rand()*10 / (RAND_MAX+1);
     num2 = rand()*10 / (RAND_MAX+1);
 
-    oprate = rand()*4 / (RAND_MAX+1);
-
-    enum op{ plus, minus, multiply, mod };
-    op operater = minus;
+    enum op{ plus1, minus1, multiply1, mod1 };
+    op oprate;
+    oprate = op(rand()*4 / (RAND_MAX+1));
 
     switch (oprate)
     {
-        case op plus: cout << num1 << '+' << num2 << '=' << "Please enter the anser: " << endl;
+
+        case plus1: cout << num1 << '+' << num2 << '=' << "Please enter the anser: " << endl;
             cin >> inputResult; result = num1 + num2;
             if (inputResult == result) cout << "Right answer!" << endl;
                 else cout << "Sorry, it's wrong~ and the right answer is: " << result;
             break; 
-        case op minus: cout << num1 << '-' << num2 << '=' << "Please enter the anser: " << endl;
+        case minus1: cout << num1 << '-' << num2 << '=' << "Please enter the anser: " << endl;
             cin >> inputResult; result = num1 - num2;
             if (inputResult == result) cout << "Right answer!" << endl;
                 else cout << "Sorry, it's wrong~ and the right answer is: " << result;
             break;
-        case op multiply: cout << num1 << '*' << num2 << '=' << "Please enter the anser: " << endl;
+        case multiply1: cout << num1 << '*' << num2 << '=' << "Please enter the anser: " << endl;
             cin >> inputResult; result = num1 * num2;
             if (inputResult == result) cout << "Right answer!" << endl;
                 else cout << "Sorry, it's wrong~ and the right answer is: " << result;
             break;
-        case op mod: cout << num1 << '%' << num2 << '=' << "Please enter the anser: " << endl;
+        case mod1: cout << num1 << '%' << num2 << '=' << "Please enter the anser: " << endl;
             cin >> inputResult; result = num1 % num2;
             if (inputResult == result) cout << "Right answer!" << endl;
                 else cout << "Sorry, it's wrong~ and the right answer is: " << result;

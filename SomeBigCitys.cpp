@@ -2,22 +2,27 @@
 #include <cstdlib>
 using namespace std;
 
-enum someBigCities{
+
+
+int main(void)
+{
+    enum someBigCities{
     Guangzhou = 4,
     Shenzhen = 4,
     Hongkong = 4,
     Shanghai = 2,
     Beijing = 3,
     Chongqin = 5
-};
+    };
 
-someBigCities wh1 = Guangzhou;
-someBigCities wh2 = Beijing;
+    someBigCities wh;
+    wh = Guangzhou;
 
-int main(void)
-{
+    someBigCities wh1 = Guangzhou;
+    someBigCities wh2 = Beijing;
 
     cout << "the value is: " << wh1 << wh2 << endl;
+    cout << wh << endl;
 
     return 0;
 } 
