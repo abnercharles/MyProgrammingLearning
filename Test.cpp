@@ -18,7 +18,8 @@ main()
     small = 1e-6;
     cout << small << endl;
 */
-    int s = 0;
+   /* int s = 0;
     for (int i = 1; i <= 100; ++1) s += 1;
-    cout << s << endl;
+    cout << s << endl;*/
+    
 }
