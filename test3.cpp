@@ -4,8 +4,7 @@
 #include <iomanip>
 using namespace std;
 
-int main()
-{
+ 
 /*    int i;
 
     for( i = 0; ; i += 7){
@@ -39,18 +38,7 @@ int main()
 
 // Think again
 // 
-   /* int N, i, split;
 
-    cin >> N;
-    while(i = 1; N != 0; i *= 10){
-        N /= i;
-    }
-
-    do{
-        split = N / i;
-        cout << split << ' ';
-    }
-    while(i; i < 10; i /= 10)*/
 
 // Think Again
 
@@ -66,7 +54,7 @@ int main()
     cout << fixed <<pow(2,31) << endl;
 */
 
-    int N, i, star, space;
+/*    int N, i, star, space;
     cin >> N;
 
     for(i = 1; i <= N; ++i){
@@ -79,4 +67,24 @@ int main()
             cout << '*';
         cout << endl;
     }
+}*/
+/*int main()
+{
+    int array[10] = {1,2,3,4};
+
+    for(int i=0;i<10;++i){
+       cout << array[i] << endl;} 
+}*/
+
+int main()
+{
+    /*vector<int> v;
+    v.push_back(3);
+    v.push_back(4);*/
+
+    double v = 0.0001;
+
+
+
+    cout << sizeof(v) << endl;
 }

@@ -1,5 +1,7 @@
 #include <iostream>
 #include <iomanip>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 /*main()
@@ -27,7 +29,7 @@ int main () {
   return 0;
 }
 */
-int main()
+/*int main()
 { 
   int a;
   float i;
@@ -37,4 +39,60 @@ int main()
   i = a/2.0;
   cout << i << endl;
   
+}*/
+
+/*int a = 3;
+double b;
+
+int letMeSee()
+{
+  int a = 100;
+  a += 2;
+  cout << a << endl;
+}
+
+int main()
+{
+  letMeSee();
+  cout << a << endl;
+  cout << b << endl;
+}*/
+/*
+int main()
+{
+  double length = 1;
+  char unit = 0;
+  cout << "Please enter the temp with a unit(c or i): " << endl;
+  cin >> length >> unit;
+}*/
+
+/*int f()
+{
+
+}*/
+ //
+ //error!
+/*int main()
+{ 
+  int a [512];
+  a[1] = 3;
+  return a;
+  int b = [];
+  b = a;
+  cout << b;
+}*/
+/*
+int main()
+{
+  char a = 'A', b = 'B', c = 'C';
+
+}*/
+
+int main()
+{
+
+  float i = 2, result = 0;
+  result = 5 / i;
+  cout << result << endl;
+
 }

@@ -1,5 +1,9 @@
 #include <iostream>
+#define
+
+
 using namespace std;
+
 
 int main()
 {   
@@ -7,7 +11,7 @@ int main()
 
     abc x;
     x = A;
-    
+
     int A, B, C;
     for(A = 1; A < 4; ++A)
         for(B = 1; B < 4; ++B)
