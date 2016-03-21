@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Num",
+				"NumofColA"
+			],
+			[
+				"N",
+				"NumofColA"
+			],
+			[
+				"if",
+				"ifelse	if(…) else"
+			],
+			[
 				"sol",
 				"solveX"
 			],
@@ -95,18 +107,15 @@
 			"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/test3.cpp",
 			"settings":
 			{
-				"buffer_size": 1452,
+				"buffer_size": 1472,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "#include <iostream>\nusing namespace std;\n\nint main()\n{\n    \n}",
-			"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/definiteIntegral.cpp",
-			"file_size": 0,
-			"file_write_time": 131027532520088326,
+			"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/doubleGroup.cpp",
 			"settings":
 			{
-				"buffer_size": 61,
+				"buffer_size": 1135,
 				"line_ending": "Windows"
 			}
 		},
@@ -310,6 +319,14 @@
 	],
 	"file_history":
 	[
+		"/C/Users/abnsun/AppData/Local/Temp/Rar$DIa0.790/installation_instructions.txt",
+		"/C/Users/abnsun/AppData/Local/Temp/Rar$DIa0.313/破解方法.txt",
+		"/C/Users/abnsun/AppData/Local/Temp/Rar$DIa0.144/破解方法.txt",
+		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/boubleSort.cpp",
+		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/directSort.cpp",
+		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/array.cpp",
+		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/pi2.cpp",
+		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/definiteIntegral.cpp",
 		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/solveX.cpp",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/n!.cpp",
@@ -392,6 +409,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"){",
 			"precison",
 			";\n",
 			"()",
@@ -432,8 +450,8 @@
 						"selection":
 						[
 							[
-								1322,
-								1322
+								140,
+								140
 							]
 						],
 						"settings":
@@ -444,10 +462,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2244.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -456,15 +474,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1452,
+						"buffer_size": 1472,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1311,
-								1311
+								1436,
+								1436
 							]
 						],
 						"settings":
@@ -475,27 +493,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1804.0,
+						"translation.y": 1957.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/definiteIntegral.cpp",
+					"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/doubleGroup.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 61,
+						"buffer_size": 1135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
+								1135,
+								1135
 							]
 						],
 						"settings":
