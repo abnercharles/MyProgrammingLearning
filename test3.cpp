@@ -2,8 +2,11 @@
 #include <stdio.h>
 #include <cmath>
 #include <iomanip>
+#include <typeinfo>
+#include <ctime>
 using namespace std;
-
+int a = 7;
+string b = "sdfjsdkjfkljhdflj";
  
 /*    int i;
 
@@ -76,15 +79,46 @@ using namespace std;
        cout << array[i] << endl;} 
 }*/
 
+/*inline int test(int array[], int n = 5);
+
 int main()
 {
+    int a = max(3,5);*/
+    // cout << a;
+/*    long t = time(NULL);
+    cout << t << endl;
+    int myarray[] = {2,3,4,2,5,46,7};
+    test(myarray);
+
+    long m = time(NULL);
+    cout << endl << m << endl;
+    return 0;*/
     /*vector<int> v;
     v.push_back(3);
     v.push_back(4);*/
 
-    double v = 0.0001;
+    // double v = 0.0001;
+/*    char i = ' ';
+    i += 
+
+    cout << i;*/
+/*    cout<<typeid(int []).name()<<endl;
+    cout<<typeid(int const *).name()<<endl;*/
+// }
+
+/*int test(int array[], int n)
+{
+    for (int i = 0; i < n; ++i)
+        cout << array[i] << ' ';
+
+    return 0;*/
 
 
+// }
+int main()
+{
+/*    int a = 2;
 
-    cout << sizeof(v) << endl;
+    cout << a << '\n' << ::a << endl;*/
+    cout << b << endl << sizeof(char) << endl << typeid(string).name();
 }
