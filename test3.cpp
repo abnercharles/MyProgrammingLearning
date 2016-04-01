@@ -5,18 +5,13 @@
 #include <typeinfo>
 #include <ctime>
 using namespace std;
-int a = 7;
-string b = "sdfjsdkjfkljhdflj";
+/*int a = 7;
+string b = "sdfjsdkjfkljhdflj";*/
  
 /*    int i;
 
     for( i = 0; ; i += 7){
-        cout << i << endl;
-        if (i > 100)
-            break;
-    }
-
-    return 0;*/
+        cout << i << endl;*/
 
 /*    char i;
     for(i = 'a'; i <= 'z'; ++i)
@@ -27,7 +22,12 @@ string b = "sdfjsdkjfkljhdflj";
     gets (string);
     cout << string << endl;
 
+        if (i > 100)
+            break;
+    }
+
     return 0;*/
+ //   return 0;*/
 
 /*    char sentence[80], prev = ' ';
     int i, num = 0;
@@ -120,5 +120,11 @@ int main()
 /*    int a = 2;
 
     cout << a << '\n' << ::a << endl;*/
-    cout << b << endl << sizeof(char) << endl << typeid(string).name();
+   // cout << b << endl << sizeof(char) << endl << typeid(string).name();
+    int i;
+    char j;
+    cin >>  i;
+    cin >>  j;
+
+    cout << i << endl << j << endl;
 }

@@ -6,12 +6,11 @@ void f();
 
 /*int main()
 {
-    extern int x;
     f();
     cout << "in main(): x = " << x << endl;
     return 0;
-}*/
-
+}
+*/
 
 void f()
 {
