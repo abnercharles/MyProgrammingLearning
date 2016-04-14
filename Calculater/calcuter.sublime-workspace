@@ -44,18 +44,13 @@
 			}
 		},
 		{
-			"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/mima.cpp",
-			"settings":
-			{
-				"buffer_size": 117,
-				"line_ending": "Windows"
-			}
-		},
-		{
+			"contents": "import urllib2\n\nrequest = urllib2.Request(\"http://blog.csdn.net/cqcre\")\ntry:\n    urllib2.urlopen(request)\n# except urllib2.HTTPError, e:\n#     print e.code\nexcept urllib2.URLError, e:\n    print e.code\nelse:\n    print \"OK\"\n⎝",
 			"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/Python/Urllib/second.py",
+			"file_size": 233,
+			"file_write_time": 131021514388133525,
 			"settings":
 			{
-				"buffer_size": 222,
+				"buffer_size": 223,
 				"line_ending": "Windows"
 			}
 		},
@@ -81,6 +76,42 @@
 			{
 				"buffer_size": 3907,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main()\n{\n    vector<double> temps;\n    for (double temp; cin >> temp; )\n        temps.push_back(temp);\n\n    vector<string> words;\n    for (string s; cin >> s && s != \"quit\";)\n        words.push_back(s);\n\n    ostream & operator << (ostream& os, const triangle &)\n    {\n\n    }\n\n    sort(words);\n    cout << words << endl; \n\n\n   /* int gcd(int x, int y) //欧几里得算最大公约数\n    {\n        int r = x % y;\n        while (r!=0)\n        {\n            x = y;\n            y = r;\n            r = x % y;\n        }\n        return y;\n    }\n\n    int gcd(int)\n}*/\n",
+			"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/Vector.cpp",
+			"file_size": 674,
+			"file_write_time": 131041273091327752,
+			"settings":
+			{
+				"buffer_size": 626,
+				"line_ending": "Windows",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Users/abnsun/OneDrive/Desktop/Study.PDF/周五编程课/Programming-code/Chapter03/chapter.3.5.cpp",
+			"settings":
+			{
+				"buffer_size": 1398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/abnsun/OneDrive/Desktop/Study.PDF/周五编程课/Programming-code/Chapter03/chapter.3.5.1.cpp",
+			"settings":
+			{
+				"buffer_size": 669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/tryType.cpp",
+			"settings":
+			{
+				"buffer_size": 740,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -205,6 +236,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/mima.cpp",
+		"/C/Users/abnsun/Documents/GitHub/DOOM-3/neo/game/anim/Anim.cpp",
+		"/C/Users/abnsun/Documents/GitHub/DOOM-3/neo/MayaImport/maya_main.cpp",
+		"/D/[www.netded.com]Nexus6-lock-tool/不会操作的看这里，这里有教程.txt",
+		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/Python/网易公开课.py",
 		"/C/Users/abnsun/OneDrive/Desktop/1.py",
 		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/tryAgainAgainAgain.cpp",
 		"/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/Calculater/structer.cpp",
@@ -268,6 +304,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h",
 			"x",
 			"cout",
 			"x",
@@ -292,7 +329,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -321,66 +358,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/mima.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 117,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 2356,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										10,
-										18
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								102,
-								102
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/Python/Urllib/second.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 222,
+						"buffer_size": 223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								223,
+								223
 							]
 						],
 						"settings":
@@ -392,11 +387,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/calculater2.cpp",
 					"semi_transient": false,
 					"settings":
@@ -423,11 +418,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "newCal.cpp",
 					"semi_transient": false,
 					"settings":
@@ -445,17 +440,18 @@
 						],
 						"settings":
 						{
+							"origin_encoding": "ASCII",
 							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "/C/Users/abnsun/OneDrive/Desktop/Study.PDF/周五编程课/Programming-code/Chapter06/chapter.6.6-problematic.cpp",
 					"semi_transient": false,
 					"settings":
@@ -467,8 +463,8 @@
 						"selection":
 						[
 							[
-								18,
-								18
+								1391,
+								1391
 							]
 						],
 						"settings":
@@ -478,15 +474,136 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 4.0,
+						"translation.x": 0.0,
+						"translation.y": 370.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/Vector.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"in_converting": true,
+							"origin_encoding": "GB2312",
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
+					"file": "/C/Users/abnsun/OneDrive/Desktop/Study.PDF/周五编程课/Programming-code/Chapter03/chapter.3.5.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/abnsun/OneDrive/Desktop/Study.PDF/周五编程课/Programming-code/Chapter03/chapter.3.5.1.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								669,
+								669
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/tryType.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								576,
+								576
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/mondrain.cpp",
 					"semi_transient": false,
 					"settings":
@@ -504,17 +621,18 @@
 						],
 						"settings":
 						{
+							"origin_encoding": "ASCII",
 							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "/C/Users/abnsun/Documents/GitHub/MyProgrammingLearning/test3.cpp",
 					"semi_transient": false,
 					"settings":
@@ -538,14 +656,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4093.0,
+						"translation.y": 3564.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "/C/Users/abnsun/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 					"semi_transient": false,
 					"settings":
@@ -571,7 +689,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
