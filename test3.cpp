@@ -121,10 +121,28 @@ int main()
 
     cout << a << '\n' << ::a << endl;*/
    // cout << b << endl << sizeof(char) << endl << typeid(string).name();
-    int i;
-    char j;
-    cin >>  i;
+/*    int i;
+    char j;*/
+    /*cin >>  i;
     cin >>  j;
 
     cout << i << endl << j << endl;
+*/
+
+   /* int m[3][3] = {1,2,3,4,5,6,7,8,9};
+    for(int i=0;i<3;i++) 
+{ 
+    for(int j=0;j<3;j++) printf("%d ",m[i][j]); 
+    printf("\n"); 
+} 
+
+cout << endl << m[2][1] << endl;*/
+/*cout.put(65) << endl;
+cout.write("狗逼",3);*/
+register a = 8;
+int b = 8;
+int *p = &a;
+int *q = &b;
+cout << p << endl << q << endl;
+
 }

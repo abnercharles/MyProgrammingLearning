@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1460801991 source:c:\users\abnsun\documents\github\myprogramminglearning\project2\permutation\per.cpp
+	<iostream>
+	<string.h>
+
+1460801992 source:c:\users\abnsun\documents\github\myprogramminglearning\project2\permutation\try.cpp
+	<iostream>
+

@@ -1,13 +1,13 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 char s;
 
 int main()
 {
-    cout << "ÇëÊäÈëÒ»¸ö×Ö·û£¬ÎÒÄÜ²éµ½ËüµÄasciiÂëÅ¶£º " << endl;
+    cout << "è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦ï¼Œæˆ‘èƒ½æŸ¥åˆ°å®ƒçš„asciiç å“¦ï¼š " << endl;
     cin >> s;
-    cout << s << "µÄasciiÂëÎª£º " << (int)s << endl;
+    cout << s << "çš„asciiç ä¸ºï¼š " << (int)s << endl;
 
     return 0;
 }

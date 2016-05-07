@@ -1,9 +1,9 @@
 #include <iostream>
 #include "graphics.h"
-#include "random.h"
 using namespace std;
 
 /* Constants */
+#include "random.h"
 
 const double MIN_AREA = 10000;   /* Smallest square that will be split */
 const double MIN_EDGE = 20;      /* Smallest edge length allowed       */
