@@ -6,9 +6,9 @@ int divide(int a[], int low, int high);
 int main()
 {
     
-    int arr[] = {4,3,2,5};
-    quicksort(arr,0,3);
-    for (int i = 0; i < 4; ++i)
+    int arr[] = {4,3,8,8,2,5};
+    quicksort(arr,0,5);
+    for (int i = 0; i < 6; ++i)
         cout << arr[i] << ' ';
 
 }
@@ -34,7 +34,7 @@ int divide(int a[], int low, int high)
         }
         while (low < high && a[low] <= k)
             ++low;
-        if (low > high){
+        if (low < high){
             a[high] = a[low]; --high;
         }
 
