@@ -1,3 +1,4 @@
+# -*- encoding:utf-8 -*-
 from Tkinter import *
 from math import *
 from time import sleep
@@ -33,7 +34,7 @@ class Triangle:
         exit()
 
     def drawTriangle(self):
-        self.triangle = self.c.create_polygon(self.A, self.B, self.C, fill = 'blue')
+        self.triangle = self.c.create_polygon(self.A, self.B, self.C, fill = '#4c98c0')
 
     def reDraw(self):
         self.vertexText()
