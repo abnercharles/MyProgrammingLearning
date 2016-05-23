@@ -1,4 +1,5 @@
 #include <iostream>
+#include <typeinfo>
 using namespace std;
 
 int main()
@@ -16,8 +17,14 @@ int main()
     cout << "p: " << p <<endl;
     cout << "*p: " << *p <<endl;*/
 
-    char a[] = {'1','2'};
-
-    cout << &a[1] << endl;
+    int a[] = {3,2};
+ //   int &b = *a;
+    int (&b)[2] = a;
+    
+    cout << typeid(a).name() << endl;
+ //   cout << typeid(b).name() << endl;
+    cout << typeid(b).name() << endl;
+    cout << b[1]<< endl;
 
 }
+
