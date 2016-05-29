@@ -1,18 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main()
+class Point_2d 
 {
-    int i = 0;
-    //i = ++i;
-    cout << ++i << ++i << ++i << endl;
+private:
+    int x, y;
+public: 
+    Point_2d(int a, int b):x(a), y(b) {}
+    int getx() const {return x;}
+    int gety() const {return y;}
+};
 
-    int j = 0;
-    cout << j++ << j++ << j++ << endl;
+Point_2d aPoint(2,5);
 
-    int k = 0;
-    cout << k++ << k++ << ++k << endl;
-    
-
-    return 0;
-}

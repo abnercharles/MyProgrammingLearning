@@ -14,7 +14,7 @@ public:
     ~sample(){delete string;}
 };
 
-sample f(const char *arg)
+sample f(const echar *arg)
 {
     sample tmp(arg);
     return tmp;

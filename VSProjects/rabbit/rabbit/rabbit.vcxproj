@@ -124,6 +124,7 @@
     <ClCompile Include="10-11.cpp" />
     <ClCompile Include="array.cpp" />
     <ClCompile Include="goods.cpp" />
+    <ClCompile Include="point.cpp" />
     <ClCompile Include="rabbit.cpp" />
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="Rational.cpp" />

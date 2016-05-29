@@ -29,8 +29,8 @@ using namespace std;
 //	cout << obj.weight() << '\t' << obj.totalWeight() << endl;
 //}
 
-int main()
-{
+//int main()
+
 	/*int n, d;
 	Rational r1, r2, r3;                        //定义3个Rational类的对象
 	cout << "请输入第一个有理数(分子和分母)：";
@@ -84,19 +84,4 @@ int main()
 	//system("pause");
 
 
-	int i = 4;
-	//i = ++i;
-	cout << ++i << ++i << ++i << endl;
-
-	int j = 4;
-	cout << j++ << j++ << j++ << endl;
-
-	int k = 0;
-	cout << k++ << k++ << ++k << endl;
-
-	system("pause");
-	return 0;
-
-
-}
 
